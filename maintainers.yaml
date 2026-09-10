@@ -1,17 +1,20 @@
-# Maintainer roster for sdcio
+# Maintainer roster for sdc
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
-
-# TODO: Add maintainer GitHub handles
 
 #  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
 maintainers:
-  - project_id: "sdcio"
+  - project_id: "sdc"
     org: "sdcio"
     teams:
       - name: "maintainers"
         members:
-          # TODO: Add maintainer handles
-          - github-handle
+          - henderiw
+          - steiler
+          - hansthienpondt
+          - alexandernorth
+          - karimra
+          - severindellsperger
+          - faebr
       # ──────────────────────────────────────────────────────────────────
       # Unmanaged teams: teams with "managed: false" are tracked in this
       # file for documentation but are excluded from CNCF resource

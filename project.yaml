@@ -1,25 +1,15 @@
-# .project metadata for sdcio
+# .project metadata for sdc
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add project description
-# TODO: Add project website URL
-# TODO: Add at least one repository URL
-# TODO: Set maturity phase (sandbox, incubating, graduated)
-# TODO: Add maturity_log entry with TOC issue URL
-# TODO: Set project_lead GitHub handle
 # TODO: Set slack_channels
-# TODO: Set identity_type under legal (has_dco, has_cla)
-# TODO: Add adopters list (ADOPTERS.md)
 # TODO: Add package_managers if distributed via registries
-# TODO: No maintainers found in cncf/foundation project-maintainers.csv — add maintainer handles manually
 
 schema_version: "1.0.0"
-slug: "sdcio"
-name: "sdcio"
-description: ""
+slug: "sdc"
+name: "SDC (Schema Driven Configuration)"
+description: "Declarative, schema-driven API automation that delivers seamless, idempotent system configuration across diverse interface standards."
 type: "project"
-# TODO: Set project lead GitHub handle
-# project_lead: "github-handle"
+project_lead: "CsatariGergely"
 # TODO: Set CNCF Slack channel(s)
 # slack_channels:
 #   - name: "#sdcio"
@@ -27,24 +17,33 @@ type: "project"
 
 maturity_log:
   - phase: "sandbox"
-    date: "2026-09-10T15:27:43Z"
-    issue: "https://github.com/cncf/toc/issues/XXX" # TODO: Set TOC issue URL
+    date: "2026-09-09T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/429"
 
 repositories:
-  # TODO: Add repository URLs
-  - url: "https://github.com/sdcio/sdcio"
-    primary: true
-    # tags: [core, sig-apps] # Optional
+  - "https://github.com/sdcio/data-server"
+  - "https://github.com/sdcio/config-server"
+  - "https://github.com/sdcio/schema-server"
+  - "https://github.com/sdcio/integration-tests"
+  - "https://github.com/sdcio/yang-parser"
+  - "https://github.com/sdcio/sdc-protos"
+  - "https://github.com/sdcio/yang-standard"
+  - "https://github.com/sdcio/sdctl"
+  - "https://github.com/sdcio/kubectl-sdc"
+  - "https://github.com/sdcio/sdc-lite"
+  - "https://github.com/sdcio/docs"
+  - "https://github.com/sdcio/cache"
+  - "https://github.com/sdcio/sonic-schema"
+  - "https://github.com/sdcio/goyang"
+  - "https://github.com/sdcio/intent-builder"
+  - "https://github.com/sdcio/logger"
 
-# TODO: Add project website
-# website: "https://sdcio.io"
+website: "https://docs.sdcio.dev/"
 
-artwork: "https://github.com/cncf/artwork/tree/master/projects/sdcio"
+artwork: "https://github.com/cncf/artwork/tree/master/projects/sdc"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
-# adopters:
-#   path: "https://github.com/sdcio/sdcio/blob/main/ADOPTERS.md"
-
+adopters:
+  path: "https://github.com/sdcio/docs/blob/main/ADOPTERS.md"
 
 # TODO: Add package manager identifiers if your project is distributed via registries
 # package_managers:
@@ -53,19 +52,19 @@ artwork: "https://github.com/cncf/artwork/tree/master/projects/sdcio"
 
 security:
   policy:
-    path: "https://github.com/sdcio/sdcio/blob/main/SECURITY.md"
+    path: "https://github.com/sdcio/.github/blob/main/SECURITY.md"
   contact:
-    advisory_url: "https://github.com/sdcio/sdcio/security/advisories/new"
+    email: "sdc-security@googlegroups.com"
 
 governance:
   contributing:
-    path: "https://github.com/sdcio/sdcio/blob/main/CONTRIBUTING.md"
+    path: "https://docs.sdcio.dev/dev/1_about/"
   code_of_conduct:
     path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
 
 legal:
   license:
-    path: "https://github.com/sdcio/sdcio/blob/main/LICENSE"
+    path: "https://github.com/sdcio/.github/blob/main/LICENSE"
   identity_type:
     has_dco: true
     has_cla: false
