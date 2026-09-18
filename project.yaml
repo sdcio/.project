@@ -1,0 +1,73 @@
+# .project metadata for sdc
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "sdc"
+name: "SDC (Schema Driven Configuration)"
+description: "Declarative, schema-driven API automation that delivers seamless, idempotent system configuration across diverse interface standards."
+type: "project"
+project_lead: "CsatariGergely"
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#sdcio"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2026-09-09T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/429"
+
+repositories:
+  - "https://github.com/sdcio/data-server"
+  - "https://github.com/sdcio/config-server"
+  - "https://github.com/sdcio/schema-server"
+  - "https://github.com/sdcio/integration-tests"
+  - "https://github.com/sdcio/yang-parser"
+  - "https://github.com/sdcio/sdc-protos"
+  - "https://github.com/sdcio/yang-standard"
+  - "https://github.com/sdcio/sdctl"
+  - "https://github.com/sdcio/kubectl-sdc"
+  - "https://github.com/sdcio/sdc-lite"
+  - "https://github.com/sdcio/docs"
+  - "https://github.com/sdcio/cache"
+  - "https://github.com/sdcio/sonic-schema"
+  - "https://github.com/sdcio/goyang"
+  - "https://github.com/sdcio/intent-builder"
+  - "https://github.com/sdcio/logger"
+
+website: "https://docs.sdcio.dev/"
+
+artwork: "https://github.com/cncf/artwork/tree/master/projects/sdc"
+
+adopters:
+  path: "https://github.com/sdcio/docs/blob/main/ADOPTERS.md"
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "sdcio/sdcio"
+
+
+security:
+  policy:
+    path: "https://github.com/sdcio/.github/blob/main/SECURITY.md"
+  contact:
+    email: "sdc-security@googlegroups.com"
+
+governance:
+  contributing:
+    path: "https://docs.sdcio.dev/dev/1_about/"
+  code_of_conduct:
+    path: "https://github.com/cncf/foundation/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/sdcio/.github/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
