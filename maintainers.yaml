@@ -15,6 +15,7 @@ maintainers:
           - karimra
           - severindellsperger
           - faebr
+          - CsatariGergely
       # ──────────────────────────────────────────────────────────────────
       # Unmanaged teams: teams with "managed: false" are tracked in this
       # file for documentation but are excluded from CNCF resource
